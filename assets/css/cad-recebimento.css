@@ -1,0 +1,90 @@
+.div-cliente{
+width: 100%;
+	max-width: 300px;
+	margin: auto;
+	border:1px solid #333;
+	border-radius: 2px;
+	padding-left: 5px;
+	position: absolute;
+	z-index: 4;
+	overflow: auto;
+	display: none;
+	background-color: #fff;
+	height: 140px
+	 
+}
+ 
+
+
+.div-cliente-banco:hover{
+
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	padding: 4px;
+    
+
+
+}
+
+.modal{
+
+
+	overflow: auto;
+}
+
+.resultado_item{
+
+	display: none;
+}
+
+.modal_result{
+
+
+	display: none;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.nao_encontrado{
+
+	display: none;
+}
+
+.div-cliente-re{
+	width: 100%;
+	max-width: 300px;
+	margin: auto;
+	border:1px solid #333;
+	border-radius: 2px;
+	padding-left: 5px;
+	position: absolute;
+	z-index: 4;
+	overflow: auto;
+	display: none;
+	background-color: #fff;
+	height: 140px
+}
+
+
+.valor_tot_real{
+
+font-size: 21px;
+    font-family: auto;
+    
+    margin-right: 114px;
+
+}
+
+.valor_tot_euro{
+
+font-size: 21px;
+    font-family: auto;
+     
+    margin-right: 132px;
+
+}
+
+
+
+

@@ -1,0 +1,197 @@
+.modal-dialog.modal-xg{
+    max-width: 80%;
+}
+
+#calendario td{
+    width: 14.285%;
+}
+#calendario td.data{
+    line-height: 4rem;
+    font-weight: 600;
+}
+#calendario td.data:hover{
+    background-color: #f2f2f2;
+}
+
+#tabelaDia{
+    height: 60vh !important;
+    overflow-Y: scroll;
+    overflow-x: hidden;
+}
+
+#tblListDia{
+    height: 60vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.scrollbar-sidebar a[disabled]{
+    color: rgba(255,255,255,0.2) !important;
+    opacity: 0.50 !important;
+    cursor: not-allowed;
+}
+.scrollbar-sidebar a[disabled]:hover{
+    color: rgba(255,255,255,0.2) !important;
+    background: rgba(0,0,0,0) !important;
+    opacity: 0.50 !important;
+}
+.scrollbar-sidebar a[disabled]:hover i{
+    opacity: 0.5 !important;
+}
+
+.login-area{
+    /*width: 16%;*/
+}
+.login-area .group-inputs{
+    display: inline-flex;
+    padding: 3%;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #454d54;
+    width:100%;
+
+}
+.login-area .group-inputs input{
+    width: 80%;
+    padding:0;
+    background-color: inherit;
+    border:none;
+    color:#8E9197;
+    font-weight: bold;
+}
+.login-area .group-inputs i{
+    border-color: #8E9197;
+    border-width: 1px;
+    border-right-style: solid;
+    font-size: 20px;
+    color: #8E9197;
+    margin-right:0.5rem;
+    padding-right: 0.5rem;
+}
+
+.fade:not(.show){
+    display: none;
+}
+
+.card-text.vendas{
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+.content.venda .col{
+    padding: 3px;
+}
+
+#campCodigoBarras{
+    height: 10rem;
+    max-height:10rem;
+    overflow-y: scroll;
+}
+
+.custom-file-label::after{
+    display: none;
+}
+
+.onlyDesktop{
+    display: none;
+}
+
+.compraClienteCelular{
+    width: 25%;
+}
+
+.campPerm{
+    max-height: 20rem;
+    overflow-y: scroll;
+    padding:1%;
+}
+
+.tbl_linhaComBorda{
+    border-bottom-style:solid;
+    border-width: 2px;
+    border-color: #ced0d2;
+    cursor: pointer;
+}
+
+/* calular */
+@media only screen and (max-width: 600px){
+    .card-body table{
+        display: block;
+        overflow-x: auto;
+        font-size: 12px;
+    }
+
+    #campoPesquisa{
+        width: 100% !important;
+    }
+
+    .modal-dialog.modal-xg{
+        max-width: 100%;
+    }
+    .modal-dialog.modal-xg .modal-body{
+        padding: 2px;
+        width: 100%;
+    }
+
+    #mdl-cliente .modal-body .row{
+        display: block !important;
+    }
+    #mdl-cliente .modal-body .col,
+    #mdl-cliente .modal-body .col-1, 
+    #mdl-cliente .modal-body .col-2, 
+    #mdl-cliente .modal-body .col-3, 
+    #mdl-cliente .modal-body .col-4, 
+    #mdl-cliente .modal-body .col-5, 
+    #mdl-cliente .modal-body .col-6, 
+    #mdl-cliente .modal-body .col-7, 
+    #mdl-cliente .modal-body .col-8, 
+    #mdl-cliente .modal-body .col-9, 
+    #mdl-cliente .modal-body .col-10, 
+    #mdl-cliente .modal-body .col-11{
+        max-width: 100% !important;
+    }
+    #mdl-cliente .modal-body .float-right{
+        float: none !important;
+    }
+    #mdl-cliente .modal-body .fc-center 
+
+    #tblServicos{
+        margin-top: 1rem;
+        height: 14rem;
+        overflow-y: scroll;
+        display: block;
+        width: 100%;
+    }
+    #tblServicos tr td:first-child{
+        width: 100%;
+    }
+
+    #jTblDia{
+        max-width: 100% !important;
+        flex: 100%;
+    }
+
+    #jTblDia .row{
+        display: flex !important;
+    }
+    #jTbldia .col-4{
+        max-width: 33.33333% !important;
+    }
+
+    #tbl_configuracao .w-50{
+        width: 100% !important;
+    }
+    #tbl_configuracao .w-25{
+        width: 100% !important;
+    }
+    .onlyPhone{
+        display: none;
+    }
+    .onlyDesktop{
+        display: flex;
+    }
+    .compraClienteCelular{
+        width: 100%;
+    }
+}

@@ -1,0 +1,8 @@
+INSERT INTO tbl_contratoLocacao (codEmpresa, contrato, descricao, cliente, diaVencimento, dataInicio, dataFim, valorContrato, observacao, jurosMes, produto, tipoContrato, geracaoContrato, assinaturaContrato, diaLeitura, produto2, fechamentoContrato, primeiraFatura)
+             VALUES (5, 'TO925441960001', NULL, 185, 20, '2012-08-25 00:00:00', '9999-12-31 00:00:00', 0, 'Mínimo de 30 dias de prazo. Não reajustou 2018, 2019 (em negociação Wagner).', NULL, 3, 'Página', '2018-07-25 00:00:00', NULL, 25, NULL, NULL, NULL);
+INSERT INTO tbl_contratoLocacao (codEmpresa, contrato, descricao, cliente, diaVencimento, dataInicio, dataFim, valorContrato, observacao, jurosMes, produto, tipoContrato, geracaoContrato, assinaturaContrato, diaLeitura, produto2, fechamentoContrato, primeiraFatura)
+             VALUES (5, 'TO925441960001-2', NULL, 185, 20, '2012-08-25 00:00:00', '9999-12-31 00:00:00', 0, 'Mínimo de 30 dias de prazo. Não reajustou 2018, 2019 (em negociação Wagner).', NULL, 3, 'Franquia', '2018-07-25 00:00:00', NULL, 25, NULL, NULL, NULL);
+INSERT INTO tbl_contratoLocacao (codEmpresa, contrato, descricao, cliente, diaVencimento, dataInicio, dataFim, valorContrato, observacao, jurosMes, produto, tipoContrato, geracaoContrato, assinaturaContrato, diaLeitura, produto2, fechamentoContrato, primeiraFatura)
+             VALUES (5, 'TO925441960001A', NULL, 185, 20, '2013-11-25 00:00:00', '9999-12-31 00:00:00', 0, 'Mínimo de 30 dias de prazo. Não reajustou 2018, 2019 (em negociação Wagner). Novo valor total conferido Ref. dez/2019. 68.100 pág / R$ 4.086,00 / R$ 0,06 / Global / PAT 6398 O.S.20.821 06/mar desc 20 pág', NULL, 3, 'Franquia', '2018-07-25 00:00:00', NULL, 25, NULL, NULL, NULL);
+
+COMMIT WORK;
