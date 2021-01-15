@@ -22,8 +22,8 @@ $_CONF = array(
 );
 
 # -- carrega conexão com o banco de dados -- #
-//require_once "con.php";
-require_once('_con.php');
+require_once "con.php";
+//require_once('_con.php');
 
 # -- altera empresa -- #
 if(isset($_GET['empresa'])){
